@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">2048</string>
+    <string name="nav_bar">开始游戏</string>
+    <string name="nav_bar2">个人信息</string>
+</resources>

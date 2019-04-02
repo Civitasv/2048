@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".UserInfoActivity">
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scrollbars="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/h_back"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <ImageView
+                android:id="@+id/h_head"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerInParent="true" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/h_back"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <com.husen.appstudy.ItemView
+            android:id="@+id/nickName"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            app:left_icon="@drawable/ic_nick_name"
+            app:left_text="用户名"
+            app:right_text="风铃会甜甜微笑"
+             />
+
+        <com.husen.appstudy.ItemView
+            android:id="@+id/signName"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            app:left_icon="@drawable/ic_sign_name"
+            app:left_text="个性签名"
+            app:right_text="想成为少年人"
+            />
+        <com.husen.appstudy.ItemView
+            android:id="@+id/sex"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            app:left_icon="@drawable/ic_sex"
+            app:left_text="性别"
+            app:right_text="男"
+            />
+        <com.husen.appstudy.ItemView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            app:left_icon="@drawable/ic_phone"
+            app:left_text="修改手机"
+            app:right_text=""
+            />
+        <com.husen.appstudy.ItemView
+            android:id="@+id/record"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            app:left_icon="@drawable/ic_pass"
+            app:left_text="游戏记录"
+            app:right_text=""
+            />
+        <com.husen.appstudy.ItemView
+            android:id="@+id/version"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            app:left_icon="@drawable/ic_about"
+            app:left_text="版本"
+            app:right_text=""
+            />
+        <com.husen.appstudy.ItemView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            app:left_icon="@drawable/back"
+            app:left_text="返回游戏"
+            app:right_text=""
+            />
+    </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.constraint.ConstraintLayout>
